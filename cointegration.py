@@ -8,7 +8,6 @@ Some small routines for analyzing cointegration between securities.
 import pandas
 import pandas.io.data
 
-from scipy.stats import linregress
 from statsmodels.tsa.stattools import adfuller
 from statsmodels.api import OLS
 
